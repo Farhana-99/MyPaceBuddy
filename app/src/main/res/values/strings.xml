@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyPaceBuddy</string>
+    <string name="target">Set Target</string>
+    <string name="history">History</string>
+    <string name="count">Start</string>
+    <string name="call">Call</string>
+    <string name="textView">Step(s)</string>
+    <string name="callHint">Enter Phone Number</string>
+</resources>
