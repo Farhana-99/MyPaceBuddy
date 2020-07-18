@@ -6,4 +6,6 @@
     <string name="call">Call</string>
     <string name="textView">Step(s)</string>
     <string name="callHint">Enter Phone Number</string>
+    <string name="tenMinJog">10 minutes Jogging</string>
+    <string name="thirtyMinDplan">30 minutes Diabetic Plan</string>
 </resources>

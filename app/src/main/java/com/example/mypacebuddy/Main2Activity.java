@@ -10,6 +10,7 @@ import android.widget.Button;
 public class Main2Activity extends AppCompatActivity {
     private Button btHomeCount;
     private Button btCall;
+    private Button btTarget;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +32,14 @@ public class Main2Activity extends AppCompatActivity {
                 openCallActivity();
             }
         });
+
+        btTarget = (Button) findViewById(R.id.buttonTarget);
+        btTarget.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openSetTargetActivity();
+            }
+        });
     }
     public void openHomeActivity(){
         Intent intent = new Intent(this, HomeActivity.class);
@@ -39,6 +48,11 @@ public class Main2Activity extends AppCompatActivity {
 
     public void openCallActivity(){
         Intent intent = new Intent(this, CallActivity.class);
+        startActivity(intent);
+    }
+
+    public void openSetTargetActivity(){
+        Intent intent = new Intent(this, SetTargetActivity.class);
         startActivity(intent);
     }
 }
