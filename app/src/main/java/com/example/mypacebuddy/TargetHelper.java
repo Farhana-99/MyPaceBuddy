@@ -21,7 +21,7 @@ public class TargetHelper extends SQLiteOpenHelper {
         sqLiteDatabase.execSQL(sql);
         insertData("Daily", 3000, 4000, sqLiteDatabase);
         insertData("Five Days per Week", 8900, 9000, sqLiteDatabase);
-        insertData("Daily", 9150, 10150, sqLiteDatabase);
+        insertData("Every Two Weeks", 9150, 10150, sqLiteDatabase);
 
     }
 
